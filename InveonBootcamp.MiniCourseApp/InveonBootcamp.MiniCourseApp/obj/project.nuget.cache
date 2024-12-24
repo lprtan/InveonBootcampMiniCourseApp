@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "J9EhaNEN6ZE=",
+  "dgSpecHash": "5zmrUy5DLa4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alperen Tan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Alperen Tan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Alperen Tan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Alperen Tan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

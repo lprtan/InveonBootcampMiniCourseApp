@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InveonBootcamp.MiniCourseApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+192fc1d8e11eab9f36a6e9a86ecb6d15877a58fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4312b2b4e7b87d78f7d3a4574f39669986480c7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InveonBootcamp.MiniCourseApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InveonBootcamp.MiniCourseApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

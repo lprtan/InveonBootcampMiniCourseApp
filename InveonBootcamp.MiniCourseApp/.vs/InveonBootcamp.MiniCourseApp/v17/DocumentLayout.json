@@ -3,96 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\businesslayer\\services\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\businesslayer\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\concrete\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\mapping\\concrete\\usermappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\mapping\\concrete\\usermappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\mapping\\abstract\\iusermappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\mapping\\abstract\\iusermappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\mapping\\concrete\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\mapping\\concrete\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\dtos\\reponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\dtos\\reponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\dtos\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\dtos\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\corelayer\\dtos\\userappdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E343C7AD-278D-492D-AC51-2B4F75AA2E4B}|CoreLayer\\CoreLayer.csproj|solutionrelative:corelayer\\dtos\\userappdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\businesslayer\\services\\concrete\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\concrete\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\usercourseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\usercourseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\userappconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\userappconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\configurations\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\configurations\\courseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\usercourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\entitylayer\\concrete\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0114AA2-EC9C-4922-AACD-61C593A7D16C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\unitofwork\\concrete\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unitofwork\\concrete\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\unitofwork\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unitofwork\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\repositories\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\businesslayer\\services\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19EACC60-6D96-4884-B9CC-755262BA8A19}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\dataaccesslayer\\repositories\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80A26DF9-BD39-4DD3-B1A0-2A94B6C6993C}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0073941D-7B7A-48D4-A553-5F37C2E037BB}|InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\inveonbootcamp.minicourseapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0073941D-7B7A-48D4-A553-5F37C2E037BB}|InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp.csproj|solutionrelative:inveonbootcamp.minicourseapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0073941D-7B7A-48D4-A553-5F37C2E037BB}|InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp.csproj|c:\\users\\alperen tan\\documents\\github\\inveonbootcampminicourseapp\\inveonbootcamp.minicourseapp\\inveonbootcamp.minicourseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0073941D-7B7A-48D4-A553-5F37C2E037BB}|InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp.csproj|solutionrelative:inveonbootcamp.minicourseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,305 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241224124838_UpdateDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241224124838_UpdateDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:48:38.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderItemConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\OrderItemConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\OrderItemConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\OrderItemConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\OrderItemConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Title": "UserMappingService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Concrete\\UserMappingService.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Mapping\\Concrete\\UserMappingService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Concrete\\UserMappingService.cs",
+              "RelativeToolTip": "CoreLayer\\Mapping\\Concrete\\UserMappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:43:19.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\OrderConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\OrderConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\OrderConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\OrderConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:41:00.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:39:10.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\PaymentConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\PaymentConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\PaymentConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\PaymentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:34:04.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Payment.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Payment.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Payment.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:30:09.059Z",
+              "WhenOpened": "2024-12-24T14:38:55.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\OrderItem.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\OrderItem.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Title": "IUserMappingService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Abstract\\IUserMappingService.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Mapping\\Abstract\\IUserMappingService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Abstract\\IUserMappingService.cs",
+              "RelativeToolTip": "CoreLayer\\Mapping\\Abstract\\IUserMappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:29:13.794Z",
+              "WhenOpened": "2024-12-24T14:37:57.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Concrete\\UserMappingProfile.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Mapping\\Concrete\\UserMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Mapping\\Concrete\\UserMappingProfile.cs",
+              "RelativeToolTip": "CoreLayer\\Mapping\\Concrete\\UserMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:34:41.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\ErrorDto.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Dtos\\ErrorDto.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\ErrorDto.cs",
+              "RelativeToolTip": "CoreLayer\\Dtos\\ErrorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:28:20.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Order.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Order.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Order.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\Order.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAqAAAAAAAAAA==",
+              "Title": "ReponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\ReponseDto.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Dtos\\ReponseDto.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\ReponseDto.cs",
+              "RelativeToolTip": "CoreLayer\\Dtos\\ReponseDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:28:21.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Category.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Category.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Category.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:27:14.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\UnitOfWork\\Concrete\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\UnitOfWork\\Concrete\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\UnitOfWork\\Concrete\\UnitOfWork.cs",
-              "RelativeToolTip": "DataAccessLayer\\UnitOfWork\\Concrete\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:56:51.145Z",
+              "WhenOpened": "2024-12-24T14:27:51.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Concrete\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Concrete\\UserService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Concrete\\UserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Concrete\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:14:32.787Z",
+              "WhenOpened": "2024-12-24T14:16:18.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
-              "RelativeToolTip": "DataAccessLayer\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Dtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\CreateUserDto.cs",
+              "RelativeToolTip": "CoreLayer\\Dtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:59:13.262Z",
+              "WhenOpened": "2024-12-24T14:13:55.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Repositories\\Concrete\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\Concrete\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Repositories\\Concrete\\GenericRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\Concrete\\GenericRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UserAppDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\UserAppDto.cs",
+              "RelativeDocumentMoniker": "CoreLayer\\Dtos\\UserAppDto.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\Dtos\\UserAppDto.cs",
+              "RelativeToolTip": "CoreLayer\\Dtos\\UserAppDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:34:03.14Z",
+              "WhenOpened": "2024-12-24T14:13:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Abstract\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:09:49.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "UserAppConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\UserAppConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\UserAppConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\UserAppConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\UserAppConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:15:05.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CourseConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\CourseConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\CourseConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\CourseConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\CourseConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:54:42.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserCourseConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\UserCourseConfiguration.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Configurations\\UserCourseConfiguration.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Configurations\\UserCourseConfiguration.cs",
-              "RelativeToolTip": "DataAccessLayer\\Configurations\\UserCourseConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:04:15.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Repositories\\Abstract\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\Abstract\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\Repositories\\Abstract\\IGenericRepository.cs",
               "RelativeToolTip": "DataAccessLayer\\Repositories\\Abstract\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:31:47.768Z",
+              "WhenOpened": "2024-12-24T13:58:10.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp\\appsettings.json",
-              "RelativeDocumentMoniker": "InveonBootcamp.MiniCourseApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp\\appsettings.json",
-              "RelativeToolTip": "InveonBootcamp.MiniCourseApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-24T11:17:42.502Z",
+              "DocumentIndex": 9,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Concrete\\GenericService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Concrete\\GenericService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Concrete\\GenericService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Concrete\\GenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:55:38.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp\\Program.cs",
-              "RelativeDocumentMoniker": "InveonBootcamp.MiniCourseApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\InveonBootcamp.MiniCourseApp\\Program.cs",
-              "RelativeToolTip": "InveonBootcamp.MiniCourseApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\Services\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:18:25.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Course.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Course.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\Course.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T08:55:04.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserApp.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserApp.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\UserApp.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserApp.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\UserApp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T08:52:15.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserCourse.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserCourse.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\UserCourse.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserCourse.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\UserCourse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T08:56:29.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserRole.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\Concrete\\UserRole.cs",
-              "RelativeToolTip": "EntityLayer\\Concrete\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T08:53:43.453Z",
+              "WhenOpened": "2024-12-24T13:45:41.451Z",
               "EditorCaption": ""
             }
           ]
