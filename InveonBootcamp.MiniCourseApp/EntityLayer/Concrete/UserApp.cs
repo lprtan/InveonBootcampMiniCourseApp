@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +10,6 @@ namespace EntityLayer.Concrete
     public class UserApp : IdentityUser
     {
         public string? FullName { get; set; }
-        public ICollection<Course>? MyCourses { get; set; }
+        public ICollection<UserCourse>? UserCourses { get; set; }
     }
 }
