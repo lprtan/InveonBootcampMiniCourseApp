@@ -13,6 +13,8 @@ namespace EntityLayer.Concrete
         public string? Description { get; set; }
         public decimal Price { get; set; }
         public string? Instructor { get; set; }
+        public int CategoryId { get; set; } 
+        public Category? Category { get; set; }
         public ICollection<UserCourse>? UserCourses { get; set; }
     }
 }
