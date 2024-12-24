@@ -1,0 +1,6 @@
+@InveonBootcamp.MiniCourseApp_HostAddress = http://localhost:5002
+
+GET {{InveonBootcamp.MiniCourseApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
