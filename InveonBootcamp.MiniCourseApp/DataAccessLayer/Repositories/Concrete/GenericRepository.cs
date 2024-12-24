@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -49,9 +50,19 @@ namespace DataAccessLayer.Repositories.Concrete
             return await _dbSet.FindAsync(id);
         }
 
+        public void Remove(T entity)
+        {
+            _appDbContext.Remove(entity);
+        }
+
         public async Task UpdateAsync(T entity)
         {
             _dbSet.Update(entity);
+        }
+
+        public IQueryable<T> Where(Expression<Func<T, bool>> predicate)
+        {
+            return _dbSet.Where(predicate);
         }
     }
 }

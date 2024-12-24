@@ -4,6 +4,7 @@ using DataAccessLayer.UnitOfWork.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -45,10 +46,22 @@ namespace BusinessLayer.Services.Concrete
             return await _genericRepository.GetByIdAsync(id);
         }
 
+        public void Remove(T entity)
+        {
+            _genericRepository.Remove(entity);
+            _unitOfWork.Save();
+        }
+
         public async Task UpdateAsync(T entity)
         {
             await _genericRepository.UpdateAsync(entity);
             await _unitOfWork.SaveAsync();
+        }
+
+        public IQueryable<T> Where(Expression<Func<T, bool>> predicate)
+        {
+           var list = _genericRepository.Where(predicate);
+           return list;
         }
     }
 }
