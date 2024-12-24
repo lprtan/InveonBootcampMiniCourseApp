@@ -6,9 +6,11 @@ C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\InveonBootcamp.MiniCourseApp.runtimeconfig.json
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\InveonBootcamp.MiniCourseApp.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\InveonBootcamp.MiniCourseApp.pdb
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -147,10 +149,14 @@ C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\CoreLayer.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\DataAccessLayer.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\BusinessLayer.pdb
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\bin\Debug\net8.0\CoreLayer.pdb
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\obj\Debug\net8.0\InveonBootcamp.MiniCourseApp.csproj.AssemblyReference.cache
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\obj\Debug\net8.0\InveonBootcamp.MiniCourseApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\InveonBootcamp.MiniCourseApp\obj\Debug\net8.0\InveonBootcamp.MiniCourseApp.AssemblyInfoInputs.cache
