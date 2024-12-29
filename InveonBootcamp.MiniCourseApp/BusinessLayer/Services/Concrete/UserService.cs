@@ -25,7 +25,7 @@ namespace BusinessLayer.Services.Concrete
 
         public async Task<ResponseDto<UserAppDto>> CreateUserAsync(CreateUserDto createUserDto)
         {
-            var user = new UserApp { Email = createUserDto.Email, FullName = createUserDto.FullName };
+            var user = new UserApp { Email = createUserDto.Email, FullName = createUserDto.FullName, UserName = createUserDto.Username};
 
             var result = await _userManager.CreateAsync(user, createUserDto.Password);
 
