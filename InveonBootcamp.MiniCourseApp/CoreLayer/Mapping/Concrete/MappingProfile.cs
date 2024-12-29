@@ -10,11 +10,12 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CoreLayer.Mapping.Concrete
 {
-    public class UserMappingProfile : Profile
+    public class MappingProfile : Profile
     {
-        public UserMappingProfile()
+        public MappingProfile()
         {
             CreateMap<UserApp, UserAppDto>();
+            CreateMap<CreateCourseDto, Course>();
         }
     }
 }

@@ -30,7 +30,7 @@ builder.Services.AddScoped<IUserRoleService, UserRoleService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
-builder.Services.AddAutoMapper(typeof(UserMappingProfile));
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<IUserMappingService, UserMappingService>();
 
 builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOption"));

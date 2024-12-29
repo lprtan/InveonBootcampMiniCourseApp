@@ -64,6 +64,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "GetCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "CreateCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCourseDto",
+        "Type": "CoreLayer.Dtos.CreateCourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "UpdateCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "EntityLayer.Concrete.Course",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "GetDetailsCourse",
+    "RelativePath": "api/Course/GetDetailsCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "api/User",
