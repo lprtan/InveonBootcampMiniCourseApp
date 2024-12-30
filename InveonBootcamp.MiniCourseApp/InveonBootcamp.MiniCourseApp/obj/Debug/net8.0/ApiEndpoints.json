@@ -64,6 +64,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CatagoryController",
+    "Method": "GetCatagories",
+    "RelativePath": "api/Catagory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CatagoryController",
+    "Method": "AddCatagory",
+    "RelativePath": "api/Catagory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCatagoryDto",
+        "Type": "CoreLayer.Dtos.CreateCatagoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
     "Method": "GetCourse",
     "RelativePath": "api/Course",
@@ -98,8 +124,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "course",
-        "Type": "EntityLayer.Concrete.Course",
+        "Name": "updateCourse",
+        "Type": "CoreLayer.Dtos.CreateCourseDto",
         "IsRequired": true
       },
       {
@@ -168,6 +194,43 @@
     "Parameters": [
       {
         "Name": "mail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserRoleController",
+    "Method": "AssignRoleToUserAsync",
+    "RelativePath": "api/UserRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserRoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/UserRole/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleName",
         "Type": "System.String",
         "IsRequired": false
       }

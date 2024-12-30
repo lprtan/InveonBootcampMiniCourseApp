@@ -32,6 +32,9 @@ builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<IUserMappingService, UserMappingService>();
+builder.Services.AddScoped<ICourseMappingService, CourseMappingService>();
+builder.Services.AddScoped<ICategoryMappingService, CategoryMappingService>();
+builder.Services.AddScoped<IOrderMappingService, OrderMappingService>();
 
 builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOption"));
 //builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));

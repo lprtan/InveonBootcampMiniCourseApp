@@ -37,6 +37,7 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
             var response = ResponseDto<Course>.Success(course, 200);
 
             return ActionResultInstance(response);
+        
         }
 
         [HttpPost]
@@ -50,20 +51,26 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCourse(Course course, int id)
+        public async Task<IActionResult> UpdateCourse(CreateCourseDto updateCourse, int id)
         {
-            var isExistCourse = await _courseService.GetByIdAsync(id);
+            var course = await _courseService.GetByIdAsync(id);
             
-            if (isExistCourse == null)
+            if (course == null)
             {
                 var responseFail = ResponseDto<Course>.Fail("Kurs ID'si bulunamadı", 404, true);
 
                 return ActionResultInstance(responseFail);
             }
 
+            course.Title = updateCourse.Title;
+            course.Description = updateCourse.Description;
+            course.CategoryId = updateCourse.CategoryId;
+            course.Instructor = updateCourse.Instructor;
+            course.Price = updateCourse.Price;
+
             await _courseService.UpdateAsync(course);
 
-            return Ok();
+            return Ok(ResponseDto<Course>.Success(course, 200));
         }
 
         [HttpDelete]
@@ -80,7 +87,7 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
 
             await _courseService.DeleteAsync(id);
 
-            return Ok();
+            return Ok(ResponseDto<Course>.Success(isExistCourse, 200));
         }
     }
 }

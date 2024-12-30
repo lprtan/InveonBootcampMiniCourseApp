@@ -16,6 +16,8 @@ namespace CoreLayer.Mapping.Concrete
         {
             CreateMap<UserApp, UserAppDto>();
             CreateMap<CreateCourseDto, Course>();
+            CreateMap<CreateCatagoryDto, Category>();
+            CreateMap<CreateOrderDto, Order>();
         }
     }
 }
