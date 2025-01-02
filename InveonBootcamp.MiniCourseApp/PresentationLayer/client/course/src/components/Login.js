@@ -3,6 +3,7 @@ import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import axios from "axios";
 import '../styles/login.css';
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -74,7 +75,7 @@ const Login = () => {
           </div>
 
           <p className="login-bottom-p">
-            Hesabınız yok mu? <a href="#">Kayıt ol</a>
+              Hesabınız yok mu? <Link to="/register">Kayıt ol</Link>
           </p>
         </div>
       </div>
