@@ -5,7 +5,7 @@ import "../styles/register.css";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
-  const navigate = useNavigate(); // useNavigate burada tanımlanmalı
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [fullName, setFullName] = useState("");
   const [username, setUsername] = useState("");

@@ -3,6 +3,8 @@ using CoreLayer.Dtos;
 using CoreLayer.Mapping.Abstract;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace InveonBootcamp.MiniCourseApp.Controllers
 {
@@ -22,9 +24,20 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCourse()
         {
-            var courses = await _courseService.GetAllAsync();
+            var courses = await _courseService.Where(c => c.Category != null).Include(c => c.Category).ToListAsync();
 
-            var response = ResponseDto<IEnumerable<Course>>.Success(courses, 200);
+
+            var courseDtos = courses.Select(c => new CourseDto
+            {
+                Id = c.Id,
+                Title = c.Title,
+                Description = c.Description,
+                Instructor  = c.Instructor,
+                Price = c.Price,
+                CategoryName = c.Category.Name
+            }).ToList();
+
+            var response = ResponseDto<IEnumerable<CourseDto>>.Success(courseDtos, 200);
 
             return ActionResultInstance(response);
         }
@@ -37,7 +50,7 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
             var response = ResponseDto<Course>.Success(course, 200);
 
             return ActionResultInstance(response);
-        
+
         }
 
         [HttpPost]
@@ -54,7 +67,7 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
         public async Task<IActionResult> UpdateCourse(CreateCourseDto updateCourse, int id)
         {
             var course = await _courseService.GetByIdAsync(id);
-            
+
             if (course == null)
             {
                 var responseFail = ResponseDto<Course>.Fail("Kurs ID'si bulunamadı", 404, true);

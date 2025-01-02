@@ -4,8 +4,10 @@ import { FaEyeSlash } from "react-icons/fa6";
 import axios from "axios";
 import '../styles/login.css';
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,9 +30,7 @@ const Login = () => {
 
       if (response.status === 200) {
         console.log("Başarıyla giriş yapıldı", response.data);
-        // Giriş başarılı ise yapılacak işlemleri buraya ekleyebilirsiniz
-        // Örneğin, kullanıcıyı ana sayfaya yönlendirme:
-        // window.location.href = '/home';
+        navigate("/course");
       }
     } catch (error) {
       console.error("Giriş hatası:", error);
