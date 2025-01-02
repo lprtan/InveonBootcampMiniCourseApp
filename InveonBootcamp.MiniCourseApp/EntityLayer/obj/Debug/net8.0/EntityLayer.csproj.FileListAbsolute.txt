@@ -11,3 +11,16 @@ C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
 C:\Users\Alperen Tan\Documents\GitHub\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\Alperen Tan\Source\Repos\InveonBootcampMiniCourseApp\InveonBootcamp.MiniCourseApp\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
