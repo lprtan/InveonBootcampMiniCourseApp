@@ -25,7 +25,6 @@ function Course() {
 
   return (
     <>
-      {/* NavbarComponent burada ekleniyor */}
       <NavbarComponent />
       <div className="course-container">
         <h2>Kurslar</h2>
@@ -45,7 +44,7 @@ function Course() {
                   <strong>Kategori:</strong> {course.categoryName}
                 </Card.Text>
                 <Button variant="primary" href={`/course/${course.id}`}>
-                  Detayları Gör
+                  Sepete Ekle
                 </Button>
               </Card.Body>
             </Card>
