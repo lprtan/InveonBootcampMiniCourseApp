@@ -30,6 +30,9 @@ const Login = () => {
 
       if (response.status === 200) {
         console.log("Başarıyla giriş yapıldı", response.data);
+
+        localStorage.setItem("accessToken", response.data.data.accessToken);
+
         navigate("/course");
       }
     } catch (error) {

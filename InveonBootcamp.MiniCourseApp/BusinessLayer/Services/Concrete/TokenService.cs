@@ -53,18 +53,21 @@ namespace BusinessLayer.Services.Concrete
             return claims;
         }
 
-        public TokenDto CreateToken(UserApp userApp)
+        public TokenDto CreateToken(UserApp userApp, IList<string> roles)
         {
             var accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
             var securityKey = SignService.GetSymmetricSecurityKey(_tokenOption.SecurityKey);
 
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
 
+            var claims = GetClaims(userApp, _tokenOption.Audience).ToList();
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
+
             JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
                 issuer: _tokenOption.Issuer,
                 expires: accessTokenExpiration,
                 notBefore: DateTime.Now,
-                claims: GetClaims(userApp, _tokenOption.Audience),
+                claims: claims,
                 signingCredentials: signingCredentials);
 
             var handler = new JwtSecurityTokenHandler();
