@@ -121,6 +121,7 @@ form button[type='button'] {
 .login-center-options{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .remember-div{
