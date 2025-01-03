@@ -21,7 +21,7 @@ function MyCourses() {
 
       const email = decodedToken.email;
 
-        const response = await axios.get("https://localhost:7037/api/UserCourse", {
+        const response = await axios.get(`https://localhost:7037/api/UserCourse?email=${email}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
