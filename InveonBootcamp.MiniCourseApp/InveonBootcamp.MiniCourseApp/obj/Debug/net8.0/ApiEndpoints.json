@@ -249,6 +249,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserCourseController",
+    "Method": "AddToUserCourse",
+    "RelativePath": "api/UserCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserCourseController",
+    "Method": "GetUserCourse",
+    "RelativePath": "api/UserCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.UserRoleController",
     "Method": "AssignRoleToUserAsync",
     "RelativePath": "api/UserRole",
