@@ -3,6 +3,7 @@ import axios from "axios";
 import { Card, Button } from "react-bootstrap";
 import NavbarComponent from "./NavbarComponent"; 
 import '../styles/course.css'; 
+import Footer from "./Footer";
 
 function Course() {
   const [courses, setCourses] = useState([]);
@@ -51,6 +52,7 @@ function Course() {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
