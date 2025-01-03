@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +27,18 @@ namespace BusinessLayer.Services.Concrete
         {
             _userManager = userManager;
             _tokenOption = options.Value;
+        }
+
+        private string CreateRefreshToken()
+
+        {
+            var numberByte = new Byte[32];
+
+            using var rnd = RandomNumberGenerator.Create();
+
+            rnd.GetBytes(numberByte);
+
+            return Convert.ToBase64String(numberByte);
         }
 
         private IEnumerable<Claim> GetClaims(UserApp userApp, List<String> audiences)
@@ -56,6 +69,7 @@ namespace BusinessLayer.Services.Concrete
         public TokenDto CreateToken(UserApp userApp, IList<string> roles)
         {
             var accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
+            var refreshTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.RefreshTokenExpiration);
             var securityKey = SignService.GetSymmetricSecurityKey(_tokenOption.SecurityKey);
 
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
@@ -77,7 +91,9 @@ namespace BusinessLayer.Services.Concrete
             var tokenDto = new TokenDto
             {
                 AccessToken = token,
+                RefreshToken = CreateRefreshToken(),
                 AccessTokenExpiration = accessTokenExpiration,
+                RefreshTokenExpiration = refreshTokenExpiration
             };
 
             return tokenDto;

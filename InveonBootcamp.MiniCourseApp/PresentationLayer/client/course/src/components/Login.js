@@ -33,6 +33,8 @@ const Login = () => {
 
         localStorage.setItem("accessToken", response.data.data.accessToken);
 
+        localStorage.setItem("refreshToken", response.data.data.refreshToken);
+        
         navigate("/course");
       }
     } catch (error) {

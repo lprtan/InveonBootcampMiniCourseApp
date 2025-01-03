@@ -53,6 +53,18 @@ namespace BusinessLayer.Services.Concrete
 
             var token = _tokenService.CreateToken(user, roles);
 
+            var userRefreshToken = await _userRefreshTokenService.Where(x => x.UserId == user.Id).SingleOrDefaultAsync();
+
+            if (userRefreshToken == null)
+            {
+                await _userRefreshTokenService.AddAsync(new UserRefreshToken { UserId = user.Id, Code = token.RefreshToken, Expiration = token.RefreshTokenExpiration });
+            }
+            else
+            {
+                userRefreshToken.Code = token.RefreshToken;
+                userRefreshToken.Expiration = token.RefreshTokenExpiration;
+            }
+
             await _unitOfWork.SaveAsync();
 
             return ResponseDto<TokenDto>.Success(token, 200);
