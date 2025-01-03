@@ -13,10 +13,10 @@ function NavbarComponent({ cartCount, onCartIconClick }) {
   return (
     <Navbar bg="dark" data-bs-theme="dark" className="navbar">
       <Container className="navbar-container">
-        <Navbar.Brand href="#home" className="navbar-brand">MyCourse</Navbar.Brand>
+        <Navbar.Brand href="/course" className="navbar-brand">MyCourse</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Ana Sayfa</Nav.Link>
-          <Nav.Link href="#courses">Kurslarım</Nav.Link>
+          <Nav.Link href="/course">Ana Sayfa</Nav.Link>
+          <Nav.Link href="/myCourse">Kurslarım</Nav.Link>
           {userRole === "Instructor" && <Nav.Link href="#instructor">Eğitmen Sayfası</Nav.Link>}
         </Nav>
         <Nav className="ml-auto navbar-icons">
