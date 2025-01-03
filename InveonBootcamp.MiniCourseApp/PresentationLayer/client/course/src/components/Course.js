@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, Button } from "react-bootstrap";
-import NavbarComponent from "./NavbarComponent"; 
-import '../styles/course.css'; 
+import NavbarComponent from "./NavbarComponent";
+import CartModal from "./CartModal";
+import '../styles/course.css';
 import Footer from "./Footer";
 
 function Course() {
   const [courses, setCourses] = useState([]);
   const [error, setError] = useState(null);
-  const [cartCount, setCartCount] = useState(0);
+  const [cartItems, setCartItems] = useState([]); 
+  const [showCartModal, setShowCartModal] = useState(false); 
 
   useEffect(() => {
     axios
@@ -22,7 +24,21 @@ function Course() {
   }, []);
 
   const handleAddToCart = (course) => {
-    setCartCount(cartCount + 1);
+    setCartItems([...cartItems, course]); 
+  };
+
+  const handleRemoveFromCart = (courseId) => {
+    setCartItems(cartItems.filter((item) => item.id !== courseId)); 
+  };
+
+  const handleCartModalToggle = () => {
+    setShowCartModal(!showCartModal); 
+  };
+
+  const handleConfirmCart = () => {
+    alert("Sepet onaylandı!");
+    setCartItems([]); 
+    setShowCartModal(false); 
   };
 
   if (error) {
@@ -31,7 +47,7 @@ function Course() {
 
   return (
     <>
-      <NavbarComponent cartCount={cartCount} /> 
+      <NavbarComponent cartCount={cartItems.length} onCartIconClick={handleCartModalToggle} />
       <div className="course-container">
         <h2>Kurslar</h2>
         <div className="course-list">
@@ -57,6 +73,15 @@ function Course() {
           ))}
         </div>
       </div>
+
+      <CartModal
+        show={showCartModal}
+        handleClose={handleCartModalToggle}
+        cartItems={cartItems}
+        handleRemoveFromCart={handleRemoveFromCart}
+        handleConfirmCart={handleConfirmCart}
+      />
+      
       <Footer />
     </>
   );

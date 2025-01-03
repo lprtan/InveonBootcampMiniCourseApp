@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { FaShoppingCart, FaUser } from 'react-icons/fa'; 
 import '../styles/navbar.css';
 
-function NavbarComponent({ cartCount }) { 
+function NavbarComponent({ cartCount, onCartIconClick }) {
   const token = localStorage.getItem("accessToken");
   const decodedToken = token ? JSON.parse(atob(token.split('.')[1])) : null;
   const userRole = decodedToken ? decodedToken["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] : null;
@@ -20,11 +20,11 @@ function NavbarComponent({ cartCount }) {
           {userRole === "Instructor" && <Nav.Link href="#instructor">Eğitmen Sayfası</Nav.Link>}
         </Nav>
         <Nav className="ml-auto navbar-icons">
-          <Nav.Link href="#cart">
+          <Nav.Link onClick={onCartIconClick}>
             <div className="cart-icon-container">
               <FaShoppingCart size={24} color="#fff" />
               {cartCount > 0 && (
-                <span className="cart-count">{cartCount}</span>  
+                <span className="cart-count">{cartCount}</span>
               )}
             </div>
           </Nav.Link>
