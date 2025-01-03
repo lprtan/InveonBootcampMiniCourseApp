@@ -1,0 +1,16 @@
+.profile-icon-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+  
+  .profile-icon {
+    color: #fff; 
+    font-size: 24px;
+  }
+  
+  .profile-icon-toggle:hover {
+    background-color: #444 !important; 
+    border-radius: 50%;
+  }
+  
