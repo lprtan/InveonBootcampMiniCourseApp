@@ -53,7 +53,8 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
 
             var userCourses = await _userCourseController
                    .Where(uc => uc.UserId == user.Id)
-                   .Include(uc => uc.Course) 
+                   .Include(uc => uc.Course)
+                   .ThenInclude(c => c.Category)
                    .ToListAsync();
 
             if (!userCourses.Any())
