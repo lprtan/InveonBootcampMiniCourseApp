@@ -8,6 +8,7 @@ import Footer from "./Footer";
 function Course() {
   const [courses, setCourses] = useState([]);
   const [error, setError] = useState(null);
+  const [cartCount, setCartCount] = useState(0);
 
   useEffect(() => {
     axios
@@ -20,13 +21,17 @@ function Course() {
       });
   }, []);
 
+  const handleAddToCart = (course) => {
+    setCartCount(cartCount + 1);
+  };
+
   if (error) {
     return <div>{error}</div>;
   }
 
   return (
     <>
-      <NavbarComponent />
+      <NavbarComponent cartCount={cartCount} /> 
       <div className="course-container">
         <h2>Kurslar</h2>
         <div className="course-list">
@@ -44,7 +49,7 @@ function Course() {
                   <strong>Fiyat:</strong> {course.price.toFixed(2)} TL <br />
                   <strong>Kategori:</strong> {course.categoryName}
                 </Card.Text>
-                <Button variant="primary" href={`/course/${course.id}`}>
+                <Button variant="primary" onClick={() => handleAddToCart(course)}>
                   Sepete Ekle
                 </Button>
               </Card.Body>
