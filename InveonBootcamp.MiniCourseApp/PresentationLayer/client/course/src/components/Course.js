@@ -54,10 +54,13 @@ function Course() {
   return (
     <>
       <NavbarComponent cartCount={cartItems.length} onCartIconClick={handleCartModalToggle} />
-      <div className="course-container">
-        <div className="course-header">
-          <h2>Kurslar</h2>
-          <InputGroup className="search-bar">
+
+      <div class="header-section">
+        <h2 class="header-title">Kurslar</h2>
+      </div>
+      
+      <div className="search-bar">
+      <InputGroup className="search-bar">
             <FormControl
               placeholder="Kurs ara..."
               aria-label="Kurs ara"
@@ -67,8 +70,10 @@ function Course() {
             <InputGroup.Text>
               <FaSearch />
             </InputGroup.Text>
-          </InputGroup>
-        </div>
+      </InputGroup>
+      </div>
+
+      <div className="course-container">
         <div className="course-list">
           {filteredCourses.map((course) => (
             <Card key={course.id} className="course-card">
@@ -100,6 +105,8 @@ function Course() {
         handleRemoveFromCart={handleRemoveFromCart}
         handleConfirmCart={handleConfirmCart}
       />
+
+
       <Footer />
     </>
   );

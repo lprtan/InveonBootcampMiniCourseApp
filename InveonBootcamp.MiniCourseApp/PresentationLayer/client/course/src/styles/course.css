@@ -1,37 +1,45 @@
 .course-container {
-  padding: 20px;
+  padding: 2px;
+  margin: 100px auto; 
 }
 
 .course-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0; /* Negatif margin kaldırıldı */
-  padding: 0 20px; /* Padding eklenerek hizalama sağlanır */
+  margin: 0;
+  padding: 0 20px; 
   position: relative;
 }
 
-h2 {
-  margin: 0; /* Margin kaldırıldı */
-  text-align: center;
-  font-size: 2rem; /* Başlık için uygun boyut */
+.header-section {
+  width: 100%;
 }
+
+.header-title {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333; 
+}
+
 
 .search-bar {
-  width: 300px; /* Sabit genişlik */
-  margin: 10; /* Margin kaldırıldı */
-  position: relative;
+  width: 600px;
+  margin: 50px auto; 
+  position: relative; 
 }
 
 .course-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* Kartları ortalamak için */
+  justify-content: center;
 }
 
 .course-card {
-  width: 300px; /* Tüm kartlar aynı boyutta */
+  width: 300px;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 15px;
@@ -61,12 +69,13 @@ h2 {
   color: #555;
 }
 
+
 @media (max-width: 768px) {
   .course-card {
-    width: 100%; /* Mobilde tam genişlik */
+    width: 100%; 
   }
 
   .search-bar {
-    width: 100%; /* Mobilde tam genişlik */
+    width: 100%;
   }
 }
