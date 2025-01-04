@@ -1,59 +1,72 @@
+.course-container {
+  padding: 20px;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; /* Negatif margin kaldırıldı */
+  padding: 0 20px; /* Padding eklenerek hizalama sağlanır */
+  position: relative;
+}
+
+h2 {
+  margin: 0; /* Margin kaldırıldı */
+  text-align: center;
+  font-size: 2rem; /* Başlık için uygun boyut */
+}
+
+.search-bar {
+  width: 300px; /* Sabit genişlik */
+  margin: 10; /* Margin kaldırıldı */
+  position: relative;
+}
 
 .course-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: flex-start;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Kartları ortalamak için */
+}
+
+.course-card {
+  width: 300px; /* Tüm kartlar aynı boyutta */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course-card .card-subtitle {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.course-card .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
   .course-card {
-    flex: 1 1 calc(25% - 20px);
-    box-sizing: border-box;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: #fff;
-    transition: transform 0.3s ease;
+    width: 100%; /* Mobilde tam genişlik */
   }
-  
-  .course-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  .search-bar {
+    width: 100%; /* Mobilde tam genişlik */
   }
-  
-  .course-card .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .course-card .card-subtitle {
-    font-size: 1rem;
-    color: #777;
-    margin-bottom: 15px;
-  }
-  
-  .course-card .card-text {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  @media (max-width: 1200px) {
-    .course-card {
-      flex: 1 1 calc(33.33% - 20px); 
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .course-card {
-      flex: 1 1 calc(50% - 20px);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .course-card {
-      flex: 1 1 100%;
-    }
-  }
-  
+}

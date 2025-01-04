@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, InputGroup, FormControl } from "react-bootstrap";
 import NavbarComponent from "./NavbarComponent";
 import CartModal from "./CartModal";
 import '../styles/course.css';
 import Footer from "./Footer";
+import { FaSearch } from "react-icons/fa";
 
 function Course() {
   const [courses, setCourses] = useState([]);
   const [error, setError] = useState(null);
-  const [cartItems, setCartItems] = useState([]); 
-  const [showCartModal, setShowCartModal] = useState(false); 
+  const [cartItems, setCartItems] = useState([]);
+  const [showCartModal, setShowCartModal] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     axios
@@ -24,22 +26,26 @@ function Course() {
   }, []);
 
   const handleAddToCart = (course) => {
-    setCartItems([...cartItems, course]); 
+    setCartItems([...cartItems, course]);
   };
 
   const handleRemoveFromCart = (courseId) => {
-    setCartItems(cartItems.filter((item) => item.id !== courseId)); 
+    setCartItems(cartItems.filter((item) => item.id !== courseId));
   };
 
   const handleCartModalToggle = () => {
-    setShowCartModal(!showCartModal); 
+    setShowCartModal(!showCartModal);
   };
 
   const handleConfirmCart = () => {
     alert("Sepet onaylandı!");
-    setCartItems([]); 
-    setShowCartModal(false); 
+    setCartItems([]);
+    setShowCartModal(false);
   };
+
+  const filteredCourses = courses.filter((course) =>
+    course.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   if (error) {
     return <div>{error}</div>;
@@ -49,10 +55,23 @@ function Course() {
     <>
       <NavbarComponent cartCount={cartItems.length} onCartIconClick={handleCartModalToggle} />
       <div className="course-container">
-        <h2>Kurslar</h2>
+        <div className="course-header">
+          <h2>Kurslar</h2>
+          <InputGroup className="search-bar">
+            <FormControl
+              placeholder="Kurs ara..."
+              aria-label="Kurs ara"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <InputGroup.Text>
+              <FaSearch />
+            </InputGroup.Text>
+          </InputGroup>
+        </div>
         <div className="course-list">
-          {courses.map((course) => (
-            <Card key={course.id} className="course-card" style={{ width: "100%" }}>
+          {filteredCourses.map((course) => (
+            <Card key={course.id} className="course-card">
               <Card.Body>
                 <Card.Title>{course.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
@@ -81,7 +100,6 @@ function Course() {
         handleRemoveFromCart={handleRemoveFromCart}
         handleConfirmCart={handleConfirmCart}
       />
-      
       <Footer />
     </>
   );
