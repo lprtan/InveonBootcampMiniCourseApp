@@ -2,6 +2,7 @@
 using CoreLayer.Dtos;
 using CoreLayer.Mapping.Abstract;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
@@ -14,11 +15,13 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
     {
         private readonly IGenericService<Course> _courseService;
         private readonly ICourseMappingService _courseMappingService;
+        private readonly UserManager<UserApp> _userManager;
 
-        public CourseController(IGenericService<Course> courseService, ICourseMappingService courseMappingService)
+        public CourseController(IGenericService<Course> courseService, ICourseMappingService courseMappingService, UserManager<UserApp> userManager)
         {
             _courseService = courseService;
             _courseMappingService = courseMappingService;
+            _userManager = userManager;
         }
 
         [HttpGet]
@@ -101,6 +104,45 @@ namespace InveonBootcamp.MiniCourseApp.Controllers
             await _courseService.DeleteAsync(id);
 
             return Ok(ResponseDto<Course>.Success(isExistCourse, 200));
+        }
+
+        [HttpGet("CourseAnalytics")]
+        public async Task<IActionResult> GetCourseAnalytics(string email) 
+        {
+            if (string.IsNullOrEmpty(email))
+            {
+                return BadRequest("Instructor name is required.");
+            }
+
+            var user = await _userManager.FindByEmailAsync(email);
+
+            var courseAnalytics = await _courseService
+                .Where(c => c.Instructor == user.FullName)
+                .Include(c => c.UserCourses) 
+                    .ThenInclude(uc => uc.User) 
+                .Include(c => c.Category) 
+                .Select(c => new CourseAnalyticsDto
+                {
+                    Id = c.Id,
+                    Title = c.Title,
+                    Description = c.Description,
+                    Price = c.Price,
+                    Instructor = c.Instructor,
+                    CategoryName = c.Category.Name,
+                    Students = c.UserCourses.Select(uc => new StudentInfoDto
+                    {
+                        FullName = uc.User.FullName,
+                        Email = uc.User.Email
+                    }).ToList() 
+                })
+                .ToListAsync();
+
+            if (!courseAnalytics.Any())
+            {
+                return Ok(new List<CourseAnalyticsDto>());
+            }
+
+            return Ok(courseAnalytics);
         }
     }
 }

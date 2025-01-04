@@ -154,6 +154,22 @@
   },
   {
     "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
+    "Method": "GetCourseAnalytics",
+    "RelativePath": "api/Course/CourseAnalytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InveonBootcamp.MiniCourseApp.Controllers.CourseController",
     "Method": "GetDetailsCourse",
     "RelativePath": "api/Course/GetDetailsCourse",
     "HttpMethod": "GET",
