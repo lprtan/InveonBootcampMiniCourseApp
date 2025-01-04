@@ -1,0 +1,105 @@
+
+.header-section {
+    width: 100%;
+  }
+  
+  .header-title {
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .my-course-container {
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .my-course-list {
+    display: flex;
+    flex-wrap: nowrap; /* Kartları aynı satıra yerleştir */
+    justify-content: flex-start; /* Sol tarafa hizala */
+    gap: 20px;
+    overflow-x: auto; /* Eğer genişlik çoksa, yatay kaydırma ekle */
+  }
+  
+  .my-course-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .my-course-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .my-course-card .card-body {
+    padding: 15px;
+    text-align: left; 
+  }
+  
+  .my-course-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .my-course-card .card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .my-course-card .card-text {
+    font-size: 0.9rem;
+    color: #495057;
+  }
+  
+
+  .my-course-card .card-text strong {
+    font-weight: bold;
+    color: #495057; 
+  }
+  
+  .my-course-card .card-body button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-course-card .card-body button:hover {
+    background-color: #218838;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-item a {
+    color: #007bff;
+  }
+  
+  .pagination .page-item a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination .page-item.active a {
+    background-color: #007bff;
+    color: white;
+  }
+  

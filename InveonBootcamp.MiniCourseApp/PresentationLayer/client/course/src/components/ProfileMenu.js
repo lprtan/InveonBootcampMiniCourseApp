@@ -36,7 +36,7 @@ function ProfileMenu({ onProfileClick }) {
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item onClick={handleMyCoursesClick}>
-          <FaUser style={{ marginRight: "8px" }} /> EĞİTMLERİM
+          <FaUser style={{ marginRight: "8px" }} /> Eğitimlerim
         </Dropdown.Item>
         <Dropdown.Item onClick={handleLogout}>
           <FaSignOutAlt style={{ marginRight: "8px" }} /> Çıkış Yap
