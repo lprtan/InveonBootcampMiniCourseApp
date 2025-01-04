@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, Button, InputGroup, FormControl } from "react-bootstrap";
+import { Card, Button, InputGroup, FormControl, Pagination } from "react-bootstrap";
 import NavbarComponent from "./NavbarComponent";
 import CartModal from "./CartModal";
-import '../styles/course.css';
+import "../styles/course.css";
 import Footer from "./Footer";
 import { FaSearch } from "react-icons/fa";
 
@@ -13,6 +13,8 @@ function Course() {
   const [cartItems, setCartItems] = useState([]);
   const [showCartModal, setShowCartModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const coursesPerPage = 4; 
 
   useEffect(() => {
     axios
@@ -47,6 +49,16 @@ function Course() {
     course.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const indexOfLastCourse = currentPage * coursesPerPage;
+  const indexOfFirstCourse = indexOfLastCourse - coursesPerPage;
+  const currentCourses = filteredCourses.slice(indexOfFirstCourse, indexOfLastCourse);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const totalPages = Math.ceil(filteredCourses.length / coursesPerPage);
+
   if (error) {
     return <div>{error}</div>;
   }
@@ -55,27 +67,49 @@ function Course() {
     <>
       <NavbarComponent cartCount={cartItems.length} onCartIconClick={handleCartModalToggle} />
 
-      <div class="header-section">
-        <h2 class="header-title">Kurslar</h2>
+      <div className="header-section">
+        <h2 className="header-title">Kurslar</h2>
       </div>
-      
+
       <div className="search-bar">
-      <InputGroup className="search-bar">
-            <FormControl
-              placeholder="Kurs ara..."
-              aria-label="Kurs ara"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            <InputGroup.Text>
-              <FaSearch />
-            </InputGroup.Text>
-      </InputGroup>
+        <InputGroup className="search-bar">
+          <FormControl
+            placeholder="Kurs ara..."
+            aria-label="Kurs ara"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <InputGroup.Text>
+            <FaSearch />
+          </InputGroup.Text>
+        </InputGroup>
+      </div>
+
+      <div className="pagination-container">
+        <Pagination>
+          <Pagination.Prev
+            disabled={currentPage === 1}
+            onClick={() => handlePageChange(currentPage - 1)}
+          />
+          {[...Array(totalPages).keys()].map((pageNumber) => (
+            <Pagination.Item
+              key={pageNumber + 1}
+              active={pageNumber + 1 === currentPage}
+              onClick={() => handlePageChange(pageNumber + 1)}
+            >
+              {pageNumber + 1}
+            </Pagination.Item>
+          ))}
+          <Pagination.Next
+            disabled={currentPage === totalPages}
+            onClick={() => handlePageChange(currentPage + 1)}
+          />
+        </Pagination>
       </div>
 
       <div className="course-container">
         <div className="course-list">
-          {filteredCourses.map((course) => (
+          {currentCourses.map((course) => (
             <Card key={course.id} className="course-card">
               <Card.Body>
                 <Card.Title>{course.title}</Card.Title>
@@ -105,7 +139,6 @@ function Course() {
         handleRemoveFromCart={handleRemoveFromCart}
         handleConfirmCart={handleConfirmCart}
       />
-
 
       <Footer />
     </>

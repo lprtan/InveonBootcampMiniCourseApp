@@ -1,6 +1,7 @@
 .course-container {
   padding: 2px;
-  margin: 100px auto; 
+  margin: 30px;
+  padding-bottom: 60px
 }
 
 .course-header {
@@ -10,6 +11,10 @@
   margin: 0;
   padding: 0 20px; 
   position: relative;
+}
+
+.pagination-container {
+  margin: 10px;
 }
 
 .header-section {
