@@ -12,20 +12,21 @@ function ProfileMenu({ onProfileClick }) {
     const refreshToken = localStorage.getItem("refreshToken");
 
     try {
-
       await axios.post("https://localhost:7037/api/Auth/RevokeRefreshToken", {
         token: refreshToken,
       });
 
-
       localStorage.removeItem("accessToken");
       localStorage.removeItem("refreshToken");
-
 
       navigate("/");
     } catch (error) {
       console.error("Çıkış yaparken bir hata oluştu:", error);
     }
+  };
+
+  const handleMyCoursesClick = () => {
+    navigate("/mycourse"); 
   };
 
   return (
@@ -34,8 +35,8 @@ function ProfileMenu({ onProfileClick }) {
         <FaUser className="profile-icon" />
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item onClick={onProfileClick}>
-          <FaUser style={{ marginRight: "8px" }} /> Profil
+        <Dropdown.Item onClick={handleMyCoursesClick}>
+          <FaUser style={{ marginRight: "8px" }} /> EĞİTMLERİM
         </Dropdown.Item>
         <Dropdown.Item onClick={handleLogout}>
           <FaSignOutAlt style={{ marginRight: "8px" }} /> Çıkış Yap
@@ -46,3 +47,4 @@ function ProfileMenu({ onProfileClick }) {
 }
 
 export default ProfileMenu;
+
