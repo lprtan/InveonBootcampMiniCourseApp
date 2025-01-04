@@ -22,7 +22,8 @@ function NavbarComponent({ cartCount, onCartIconClick, onProfileClick, onLogoutC
         <Nav className="me-auto">
           <Nav.Link href="/course">Ana Sayfa</Nav.Link>
           <Nav.Link href="/myCourse">Kurslarım</Nav.Link>
-          {userRole === "Instructor" && <Nav.Link href="#instructor">Eğitmen Sayfası</Nav.Link>}
+          {userRole === "Instructor" && <Nav.Link href="/courseForm">Kurs Ekle</Nav.Link>}
+          {userRole === "Instructor" && <Nav.Link href="/courseForm">Kurs ve Öğrenci Yönet</Nav.Link>}
         </Nav>
         <Nav className="ml-auto navbar-icons">
           <Nav.Link onClick={onCartIconClick}>

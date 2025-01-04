@@ -18,7 +18,6 @@ function ProfileMenu({ onProfileClick }) {
 
       localStorage.removeItem("accessToken");
       localStorage.removeItem("refreshToken");
-
       navigate("/");
     } catch (error) {
       console.error("Çıkış yaparken bir hata oluştu:", error);
