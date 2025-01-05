@@ -1,0 +1,64 @@
+.analytics-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.analytics-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.course-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    max-width: 300px;
+}
+
+.course-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.course-card p {
+    margin: 5px 0;
+}
+
+.course-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-card ul li {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}

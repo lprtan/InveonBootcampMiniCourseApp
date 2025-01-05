@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxaqtunN3MU=",
+  "dgSpecHash": "GgsuNfa/4BI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen Tan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Alperen Tan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",

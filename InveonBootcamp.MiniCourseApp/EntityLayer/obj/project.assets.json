@@ -817,11 +817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\EntityLayer.csproj",
+      "projectPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\EntityLayer.csproj",
       "packagesPath": "C:\\Users\\Alperen Tan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\obj\\",
+      "outputPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

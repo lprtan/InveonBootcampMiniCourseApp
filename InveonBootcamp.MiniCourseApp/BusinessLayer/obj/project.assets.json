@@ -2768,11 +2768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Alperen Tan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2794,11 +2794,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj": {
-              "projectPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj"
+            "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj": {
+              "projectPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\CoreLayer\\CoreLayer.csproj"
             },
-            "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Alperen Tan\\Documents\\GitHub\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Alperen Tan\\Source\\Repos\\InveonBootcampMiniCourseApp\\InveonBootcamp.MiniCourseApp\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

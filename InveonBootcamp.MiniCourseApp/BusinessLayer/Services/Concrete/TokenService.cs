@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +27,18 @@ namespace BusinessLayer.Services.Concrete
         {
             _userManager = userManager;
             _tokenOption = options.Value;
+        }
+
+        private string CreateRefreshToken()
+
+        {
+            var numberByte = new Byte[32];
+
+            using var rnd = RandomNumberGenerator.Create();
+
+            rnd.GetBytes(numberByte);
+
+            return Convert.ToBase64String(numberByte);
         }
 
         private IEnumerable<Claim> GetClaims(UserApp userApp, List<String> audiences)
@@ -53,18 +66,22 @@ namespace BusinessLayer.Services.Concrete
             return claims;
         }
 
-        public TokenDto CreateToken(UserApp userApp)
+        public TokenDto CreateToken(UserApp userApp, IList<string> roles)
         {
             var accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
+            var refreshTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.RefreshTokenExpiration);
             var securityKey = SignService.GetSymmetricSecurityKey(_tokenOption.SecurityKey);
 
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+
+            var claims = GetClaims(userApp, _tokenOption.Audience).ToList();
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
             JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
                 issuer: _tokenOption.Issuer,
                 expires: accessTokenExpiration,
                 notBefore: DateTime.Now,
-                claims: GetClaims(userApp, _tokenOption.Audience),
+                claims: claims,
                 signingCredentials: signingCredentials);
 
             var handler = new JwtSecurityTokenHandler();
@@ -74,7 +91,9 @@ namespace BusinessLayer.Services.Concrete
             var tokenDto = new TokenDto
             {
                 AccessToken = token,
+                RefreshToken = CreateRefreshToken(),
                 AccessTokenExpiration = accessTokenExpiration,
+                RefreshTokenExpiration = refreshTokenExpiration
             };
 
             return tokenDto;

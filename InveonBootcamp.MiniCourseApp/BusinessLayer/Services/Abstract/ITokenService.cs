@@ -11,7 +11,7 @@ namespace BusinessLayer.Services.Abstract
 {
     public interface ITokenService
     {
-        TokenDto CreateToken(UserApp userApp);
+        TokenDto CreateToken(UserApp userApp, IList<string> roles);
         ClientTokenDto CreateTokenByClient(Client client);
     }
 }

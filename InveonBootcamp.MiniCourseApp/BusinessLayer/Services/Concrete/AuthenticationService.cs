@@ -49,7 +49,21 @@ namespace BusinessLayer.Services.Concrete
                 return ResponseDto<TokenDto>.Fail("Şifre hatalı", 400, true);
             }
 
-            var token = _tokenService.CreateToken(user);
+            IList<string> roles = await _userManager.GetRolesAsync(user);
+
+            var token = _tokenService.CreateToken(user, roles);
+
+            var userRefreshToken = await _userRefreshTokenService.Where(x => x.UserId == user.Id).SingleOrDefaultAsync();
+
+            if (userRefreshToken == null)
+            {
+                await _userRefreshTokenService.AddAsync(new UserRefreshToken { UserId = user.Id, Code = token.RefreshToken, Expiration = token.RefreshTokenExpiration });
+            }
+            else
+            {
+                userRefreshToken.Code = token.RefreshToken;
+                userRefreshToken.Expiration = token.RefreshTokenExpiration;
+            }
 
             await _unitOfWork.SaveAsync();
 
@@ -86,7 +100,9 @@ namespace BusinessLayer.Services.Concrete
                 return ResponseDto<TokenDto>.Fail("Kullanıcı Bulunamadı", 404, true);
             }
 
-            var tokenDto = _tokenService.CreateToken(user);
+            IList<string> roles = await _userManager.GetRolesAsync(user);
+
+            var tokenDto = _tokenService.CreateToken(user, roles);
 
             existRefreshToken.Code = tokenDto.RefreshToken;
             existRefreshToken.Expiration = tokenDto.RefreshTokenExpiration;
